@@ -1,0 +1,66 @@
+# --------------------
+# OSX Files
+# --------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+npm-debug.log*
+
+
+# --------------------
+# Always-ignore extensions
+# --------------------
+*~
+*.diff
+*.err
+*.log
+*.orig
+*.pyc
+*.rej
+*.sass-cache
+*.sw?
+*.vi
+*.cache
+
+
+# --------------------
+# Sublime Text Files
+# --------------------
+*.sublime-project
+*.sublime-workspace
+
+
+# --------------------
+# IntelliJ Files
+# --------------------
+*.iml
+*.ipr
+*.iws
+.idea
+out/
+
+
+# --------------------
+# Eclipse Files
+# --------------------
+.project
+.metadata
+*.bak
+.classpath
+.settings
+
+
+# --------------------
+# Folders
+# --------------------
+node_modules
+bower_components
+.tmp
+
+# --------------------
+# Project specific files
+# --------------------

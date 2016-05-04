@@ -1,0 +1,19 @@
+{
+	"extends": [
+		// es6
+		// "airbnb-base"
+		// es5
+		"airbnb-base/legacy"
+	],
+	"rules": {
+		"comma-dangle": [2, "never"],
+		"max-len": 0
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"globals": {
+		"jQuery": true
+	}
+}
