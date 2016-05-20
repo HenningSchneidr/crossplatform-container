@@ -6,14 +6,24 @@
 		"airbnb-base/legacy"
 	],
 	"rules": {
+		//enable ESLint rules, such as
 		"comma-dangle": [2, "never"],
-		"max-len": 0
+		"max-len": 0,
+		"eqeqeq": 1
 	},
 	"env": {
-		"browser": true,
-		"node": true
+		//remove either of the lines below if you don't need it
+		//enable nodejs environment
+		"node": true,
+		//enable browser environment
+		"browser": true
 	},
 	"globals": {
+		//place settings for globals here, such as
+		"exampleGlobalVariable": true,
 		"jQuery": true
-	}
+	},
+	"plugins": [
+		//you can put plugins here
+	]
 }
